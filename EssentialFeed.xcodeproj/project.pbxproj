@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C701772D29C64C010087B195 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701772C29C64C010087B195 /* HTTPClient.swift */; };
 		C733CECC29B6B973008EA556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733CECB29B6B973008EA556 /* AppDelegate.swift */; };
 		C733CECE29B6B973008EA556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733CECD29B6B973008EA556 /* SceneDelegate.swift */; };
 		C733CED029B6B973008EA556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733CECF29B6B973008EA556 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C701772C29C64C010087B195 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		C733CEC829B6B973008EA556 /* EssentialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C733CECB29B6B973008EA556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C733CECD29B6B973008EA556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				C733CF0229BA8A5B008EA556 /* RemoteFeedLoader.swift */,
+				C701772C29C64C010087B195 /* HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				C733CEFC29B6B9A8008EA556 /* FeedItem.swift in Sources */,
 				C733CED029B6B973008EA556 /* ViewController.swift in Sources */,
 				C733CECC29B6B973008EA556 /* AppDelegate.swift in Sources */,
+				C701772D29C64C010087B195 /* HTTPClient.swift in Sources */,
 				C733CEFE29B6B9FA008EA556 /* FeedLoader.swift in Sources */,
 				C733CF0429BA8A6E008EA556 /* RemoteFeedLoader.swift in Sources */,
 				C733CECE29B6B973008EA556 /* SceneDelegate.swift in Sources */,
