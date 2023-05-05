@@ -25,7 +25,7 @@
 		C733CF0129B933FD008EA556 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733CF0029B933FD008EA556 /* RemoteFeedLoaderTests.swift */; };
 		C733CF0429BA8A6E008EA556 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733CF0229BA8A5B008EA556 /* RemoteFeedLoader.swift */; };
 		C7489D0F2A02F36F00AAC482 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D0E2A02F36F00AAC482 /* URLSessionHTTPClient.swift */; };
-		C7489D182A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */; };
+		C7489D1D2A05904800AAC482 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +167,7 @@
 			children = (
 				C733CEE229B6B978008EA556 /* EssentialFeedTests.swift */,
 				C701773029C652930087B195 /* Feed API */,
+				C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -201,7 +202,6 @@
 		C7489D162A03004F00AAC482 /* EssentialFeedAPIEndToEndTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */,
 			);
 			path = EssentialFeedAPIEndToEndTests;
 			sourceTree = "<group>";
@@ -384,6 +384,7 @@
 				C733CF0129B933FD008EA556 /* RemoteFeedLoaderTests.swift in Sources */,
 				C7216B5D29D4DAEF00D73811 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				C70DAAAB29CA0FD800C2A43D /* URLSessionHTTPClientTests.swift in Sources */,
+				C7489D1D2A05904800AAC482 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 				C733CEE329B6B978008EA556 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +402,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7489D182A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
