@@ -26,6 +26,7 @@
 		C733CF0429BA8A6E008EA556 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733CF0229BA8A5B008EA556 /* RemoteFeedLoader.swift */; };
 		C7489D0F2A02F36F00AAC482 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D0E2A02F36F00AAC482 /* URLSessionHTTPClient.swift */; };
 		C7489D1D2A05904800AAC482 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */; };
+		C7489D1E2A05941500AAC482 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7216B5C29D4DAEF00D73811 /* XCTestCase+MemoryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C7489D0E2A02F36F00AAC482 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		C7489D152A03004E00AAC482 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
+		C7489D1F2A05959100AAC482 /* Testplan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Testplan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		C733CEBF29B6B973008EA556 = {
 			isa = PBXGroup;
 			children = (
+				C7489D1F2A05959100AAC482 /* Testplan.xctestplan */,
 				C733CECA29B6B973008EA556 /* EssentialFeed */,
 				C733CEE129B6B978008EA556 /* EssentialFeedTests */,
 				C733CEEB29B6B978008EA556 /* EssentialFeedUITests */,
@@ -402,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7489D1E2A05941500AAC482 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
