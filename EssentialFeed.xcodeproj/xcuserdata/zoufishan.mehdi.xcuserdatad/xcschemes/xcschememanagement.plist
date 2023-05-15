@@ -4,28 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EssentialFeed.xcscheme_^#shared#^_</key>
+		<key>CI.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>C733CEC729B6B973008EA556</key>
+		<key>EssentialFeed.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>primary</key>
-			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
-		<key>C733CEDD29B6B978008EA556</key>
+		<key>EssentialFeedAPIEndToEndTests.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C733CEE729B6B978008EA556</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>
