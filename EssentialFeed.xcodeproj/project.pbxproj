@@ -117,6 +117,7 @@
 			children = (
 				C733CF0029B933FD008EA556 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				C70DAAA929CA0BFF00C2A43D /* URLSessionHTTPClientTests.swift */,
+				C7489D222A13D27D00AAC482 /* CacheFeedUseCaseTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -180,7 +181,6 @@
 				C7216B5B29D4DAD500D73811 /* Helpers */,
 				C701773029C652930087B195 /* Feed API */,
 				C7489D172A03004F00AAC482 /* EssentialFeedAPIEndToEndTests.swift */,
-				C7489D222A13D27D00AAC482 /* CacheFeedUseCaseTests.swift */,
 				C7489D242A13D28900AAC482 /* Feed Cache */,
 			);
 			path = EssentialFeedTests;
