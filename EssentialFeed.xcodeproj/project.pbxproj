@@ -30,6 +30,7 @@
 		C7489D232A13D27D00AAC482 /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D222A13D27D00AAC482 /* CacheFeedUseCaseTests.swift */; };
 		C7489D262A168FD800AAC482 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D252A168FD800AAC482 /* LocalFeedLoader.swift */; };
 		C7489D292A16904700AAC482 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D282A16904700AAC482 /* FeedStore.swift */; };
+		C7489D2C2A16B0BE00AAC482 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D2B2A16B0BE00AAC482 /* RemoteFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		C7489D222A13D27D00AAC482 /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		C7489D252A168FD800AAC482 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		C7489D282A16904700AAC482 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		C7489D2B2A16B0BE00AAC482 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				C701772E29C64CF90087B195 /* FeedItemsMapper.swift */,
 				C701772C29C64C010087B195 /* HTTPClient.swift */,
 				C7489D0E2A02F36F00AAC482 /* URLSessionHTTPClient.swift */,
+				C7489D2B2A16B0BE00AAC482 /* RemoteFeedItem.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			files = (
 				C733CEFC29B6B9A8008EA556 /* FeedItem.swift in Sources */,
 				C7489D292A16904700AAC482 /* FeedStore.swift in Sources */,
+				C7489D2C2A16B0BE00AAC482 /* RemoteFeedItem.swift in Sources */,
 				C733CED029B6B973008EA556 /* ViewController.swift in Sources */,
 				C733CECC29B6B973008EA556 /* AppDelegate.swift in Sources */,
 				C701772F29C64CF90087B195 /* FeedItemsMapper.swift in Sources */,
