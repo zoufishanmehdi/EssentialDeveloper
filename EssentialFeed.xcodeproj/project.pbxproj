@@ -32,6 +32,7 @@
 		C7489D292A16904700AAC482 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D282A16904700AAC482 /* FeedStore.swift */; };
 		C7489D2C2A16B0BE00AAC482 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D2B2A16B0BE00AAC482 /* RemoteFeedItem.swift */; };
 		C7489D2E2A16B11500AAC482 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489D2D2A16B11500AAC482 /* LocalFeedImage.swift */; };
+		C7EB4B6A2A2E504D005C2559 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4B692A2E504D005C2559 /* LoadFeedFromCacheUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		C7489D282A16904700AAC482 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		C7489D2B2A16B0BE00AAC482 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		C7489D2D2A16B11500AAC482 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
+		C7EB4B692A2E504D005C2559 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 		C7489D242A13D28900AAC482 /* Feed Cache */ = {
 			isa = PBXGroup;
 			children = (
+				C7EB4B692A2E504D005C2559 /* LoadFeedFromCacheUseCaseTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				C70DAAAB29CA0FD800C2A43D /* URLSessionHTTPClientTests.swift in Sources */,
 				C7489D1D2A05904800AAC482 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 				C733CEE329B6B978008EA556 /* EssentialFeedTests.swift in Sources */,
+				C7EB4B6A2A2E504D005C2559 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
