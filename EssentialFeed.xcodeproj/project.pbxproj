@@ -15,6 +15,7 @@
 		0A2254092A53223800BDD02B /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2254082A53223800BDD02B /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
 		0A22540C2A546AD000BDD02B /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22540B2A546AD000BDD02B /* CoreDataFeedStoreTests.swift */; };
 		0A22540E2A546C7000BDD02B /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22540D2A546C7000BDD02B /* CoreDataFeedStore.swift */; };
+		0A2254112A54727200BDD02B /* CoreDataFeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A22540F2A54727200BDD02B /* CoreDataFeedStore.xcdatamodeld */; };
 		C701772D29C64C010087B195 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701772C29C64C010087B195 /* HTTPClient.swift */; };
 		C701772F29C64CF90087B195 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701772E29C64CF90087B195 /* FeedItemsMapper.swift */; };
 		C70DAAAB29CA0FD800C2A43D /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DAAA929CA0BFF00C2A43D /* URLSessionHTTPClientTests.swift */; };
@@ -75,6 +76,7 @@
 		0A2254082A53223800BDD02B /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		0A22540B2A546AD000BDD02B /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		0A22540D2A546C7000BDD02B /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
+		0A2254102A54727200BDD02B /* CoreDataFeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataFeedStore.xcdatamodel; sourceTree = "<group>"; };
 		C701772C29C64C010087B195 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		C701772E29C64CF90087B195 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		C70DAAA929CA0BFF00C2A43D /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				C733CEFD29B6B9FA008EA556 /* FeedLoader.swift */,
 				C733CECF29B6B973008EA556 /* ViewController.swift */,
 				C733CED129B6B973008EA556 /* Main.storyboard */,
+				0A22540F2A54727200BDD02B /* CoreDataFeedStore.xcdatamodeld */,
 				C733CED429B6B977008EA556 /* Assets.xcassets */,
 				C733CED629B6B977008EA556 /* LaunchScreen.storyboard */,
 				C733CED929B6B977008EA556 /* Info.plist */,
@@ -464,6 +467,7 @@
 				C733CEFC29B6B9A8008EA556 /* FeedImage.swift in Sources */,
 				0A22540E2A546C7000BDD02B /* CoreDataFeedStore.swift in Sources */,
 				C77175B32A425CEA00EBAD23 /* FeedCachePolicy.swift in Sources */,
+				0A2254112A54727200BDD02B /* CoreDataFeedStore.xcdatamodeld in Sources */,
 				C7489D292A16904700AAC482 /* FeedStore.swift in Sources */,
 				C7489D2C2A16B0BE00AAC482 /* RemoteFeedItem.swift in Sources */,
 				C7EB4B6E2A2E5610005C2559 /* FeedStoreSpy.swift in Sources */,
@@ -887,6 +891,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A22540F2A54727200BDD02B /* CoreDataFeedStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A2254102A54727200BDD02B /* CoreDataFeedStore.xcdatamodel */,
+			);
+			currentVersion = 0A2254102A54727200BDD02B /* CoreDataFeedStore.xcdatamodel */;
+			path = CoreDataFeedStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C733CEC029B6B973008EA556 /* Project object */;
 }
