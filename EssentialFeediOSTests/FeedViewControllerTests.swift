@@ -31,9 +31,13 @@ final class FeedViewController: UITableViewController {
     @objc private func load() {
         refreshControl?.beginRefreshing()
         loader?.load { [weak self] result in
-            self?.tableModel = (try? result.get()) ?? []
-            self?.tableView.reloadData()
-            self?.refreshControl?.endRefreshing()
+            switch result {
+            case let .success(feed):
+                self?.tableModel = feed
+                self?.tableView.reloadData()
+                self?.refreshControl?.endRefreshing()
+            case .failure: break
+            }
         }
     }
     
@@ -100,6 +104,19 @@ final class FeedViewControllerTests: XCTestCase {
         loader.completeFeedLoading(with: [image0, image1, image3], at: 1)
         assertThat(sut, isRendering: [image0, image1, image2, image3])
     }
+    
+    func test_loadFeedCompletion_doesNotAlterCurrentRenderingStateOnError() {
+        let image0 = makeImage()
+        let (sut, loader) = makeSUT()
+        
+        sut.loadViewIfNeeded()
+        loader.completeFeedLoading(with: [image0], at: 0)
+        assertThat(sut, isRendering: [image0])
+        
+        sut.simulateUserInitiatedFeedReload()
+        loader.completeFeedLoadingWithError(at: 1)
+        assertThat(sut, isRendering: [image0])
+    }
 
     // MARK: - Helpers
     
@@ -154,6 +171,11 @@ final class FeedViewControllerTests: XCTestCase {
         
         func completeFeedLoading(with feed: [FeedImage] = [], at index: Int = 0) {
             completions[index](.success(feed))
+        }
+        
+        func completeFeedLoadingWithError(at index: Int = 0) {
+            let error = NSError(domain: "an error", code: 0)
+            completions[index](.failure(error))
         }
     }
 
