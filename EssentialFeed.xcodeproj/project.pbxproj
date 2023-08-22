@@ -20,6 +20,7 @@
 		0A43363F2A7D8C780044E692 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4336352A7D8C770044E692 /* EssentialFeediOS.framework */; };
 		0A43364A2A7D8C790044E692 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4336352A7D8C770044E692 /* EssentialFeediOS.framework */; };
 		0A43364B2A7D8C790044E692 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4336352A7D8C770044E692 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A7940F82A9546D1002430A4 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7940F72A9546D1002430A4 /* FeedImageCell.swift */; };
 		0A81B2EC2A587076005983C7 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81B2EB2A587076005983C7 /* CoreDataHelpers.swift */; };
 		0A81B2EE2A5870F1005983C7 /* ManagedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81B2ED2A5870F1005983C7 /* ManagedCache.swift */; };
 		0A81B2F02A58711B005983C7 /* ManagedFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81B2EF2A58711B005983C7 /* ManagedFeedImage.swift */; };
@@ -124,6 +125,7 @@
 		0A4336352A7D8C770044E692 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4336382A7D8C770044E692 /* EssentialFeediOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeediOS.docc; sourceTree = "<group>"; };
 		0A43363E2A7D8C780044E692 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7940F72A9546D1002430A4 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 		0A81B2EB2A587076005983C7 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 		0A81B2ED2A5870F1005983C7 /* ManagedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedCache.swift; sourceTree = "<group>"; };
 		0A81B2EF2A58711B005983C7 /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				0A4336382A7D8C770044E692 /* EssentialFeediOS.docc */,
+				0A7940F72A9546D1002430A4 /* FeedImageCell.swift */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -644,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4336392A7D8C770044E692 /* EssentialFeediOS.docc in Sources */,
+				0A7940F82A9546D1002430A4 /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,7 +794,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -825,7 +829,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1002,6 +1006,7 @@
 		C733CEF329B6B978008EA556 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1031,6 +1036,7 @@
 		C733CEF429B6B978008EA556 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
