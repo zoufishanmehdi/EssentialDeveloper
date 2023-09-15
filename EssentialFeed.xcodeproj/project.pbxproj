@@ -261,6 +261,7 @@
 				0A1A1A052AA27A9C0056965B /* FeedImageCellController.swift */,
 				0A1A1A072AA281ED0056965B /* FeedUIComposer.swift */,
 				0A99592A2AB4F29200B6DA0F /* Feed Presentation */,
+				0AD59FFA2AA3E476003F4349 /* FeedViewModel.swift */,
 				0A1A1A012AA275590056965B /* FeedImageDataLoader.swift */,
 				0A1A1A032AA276660056965B /* FeedRefreshViewController.swift */,
 				0A7940FB2A96897B002430A4 /* UIView+Shimmering.swift */,
@@ -322,7 +323,6 @@
 			isa = PBXGroup;
 			children = (
 				0A99592B2AB4F2B700B6DA0F /* FeedPresenter.swift */,
-				0AD59FFA2AA3E476003F4349 /* FeedViewModel.swift */,
 				0AD59FFC2AA3EC87003F4349 /* FeedImageViewModel.swift */,
 			);
 			path = "Feed Presentation";
